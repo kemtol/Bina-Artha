@@ -19,13 +19,28 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <style>
+      #left--menu{
+        width:240rem;
+        height:100vh;
+        position:fixed;
+        top:0;
+        left:0;
+        background:blue;
+        z-index:1031
+      }
+      
+      .push-left-1031{
+       padding-left:1031px;
+      }
+    </style>
   </head>
 
   <body>
-    <div style="width:240rem;height:100vh;position:fixed;top:0;left:0;background:blue;z-index:1031">
+    <div id="left--menu">
     
     </div>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="padding-left:1031px">
+    <nav class="navbar navbar-inverse navbar-fixed-top push-left-1031">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -51,7 +66,7 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron" style="padding-left:1031px">
+    <div class="jumbotron push-left-1031">
       <div class="container-fluid">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -59,7 +74,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="padding-left:1031px">
+    <div class="container-fluid push-left-1031">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
