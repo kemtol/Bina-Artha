@@ -26,12 +26,13 @@
         position:fixed;
         top:0;
         left:0;
-        background:blue;
+        background:#fff;
+        box-shadow: 0px 0px 5px #ccc;
         z-index:1031
       }
       
       .push-left-240{
-       padding-left:255px;
+       padding-left:240px;
       }
     </style>
   </head>
@@ -50,7 +51,10 @@
       </div>
     </div>
     <nav class="navbar navbar-default navbar-fixed-top push-left-240">
-      <div class="container-fluid">
+      <div>
+        <img src="{{site.url}}/images/jumbotron-1.jpg" />
+      </div>
+      <div class="container-fluid" style="position:absolute">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -76,7 +80,7 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron push-left-240">
-      <div class="container-fluid">
+      <div class="container-fluid" style="padding:0">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
