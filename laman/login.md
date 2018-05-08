@@ -7,10 +7,12 @@ permalink: "/login.html"
 	nav,#left--menu,footer{display:none;}	
 </style>
 
-<div class="container">
+<div style="width:100vw;height:100vh">
 	<div class="login-container">
             <div id="output"></div>
-            <div class="avatar"></div>
+		<div class="avatar">
+			<img src="https://kemtol.github.io/Bina-Artha//images/logo.jpg" />
+		</div>
             <div class="form-box">
                 <form action="" method="">
                     <input name="user" type="text" placeholder="username">
