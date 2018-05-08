@@ -146,6 +146,10 @@ footer{
     -moz-transform: rotateZ(4deg);
     -ms-transform: rotateZ(4deg);
     border: 1px solid #ccc;
+
+    @include mobile{
+      border:none;
+    }  
 }
 
 .login-container::after{
