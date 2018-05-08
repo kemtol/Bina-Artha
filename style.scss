@@ -56,9 +56,13 @@
 }
 
 .navbar-default{
+  padding-top:0.75rem;
+  padding-bottom:0.75rem;
   .navbar-brand,
   .navbar-brand:hover{
     color:#08437E;
+    font-size:2rem;
+    font-weight:bold;
   }
 }
 
@@ -69,6 +73,7 @@
 .jumbotron{
   padding-top:0;
   padding-bottom:0;
+  margin-bottom:0;
 }
 
 footer{
