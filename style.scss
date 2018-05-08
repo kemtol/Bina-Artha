@@ -17,6 +17,7 @@
 .circle{
   overflow:hidden;
   border-radius:50%;
+  display:inline-block;
   img{
     width:100%;
   }
@@ -43,6 +44,11 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     color:#fff;
+
+    .circle{
+      width:50%;
+    }
+    
     u1{
       color:#ddd;
     }
