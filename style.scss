@@ -13,6 +13,16 @@
 /* CUSTOM */
 /**************/
 
+/* COMPONENT */
+.circle{
+  overflow:hidden;
+  border-radius:50%;
+  img{
+    width:100%;
+  }
+}
+
+
 /* HALAMAN HOME */
 #left--menu{
   width:240px;
