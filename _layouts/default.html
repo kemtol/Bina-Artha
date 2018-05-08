@@ -48,33 +48,8 @@
   </head>
 
   <body>
-    <div id="left--menu">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <img src="{{site.url}}/images/logo.jpg" />
-          </div>
-          <div class="col-xs-12 text-center user-box">
-            <div class="circle">
-              <img src="{{site.url}}/images/kemal-profile-pic.png" />
-            </div>
-            <span class="u1">Welcome back,</span><br/>
-            <span class="u2">SADAM HUSEN</span>
-          </div>
-          <div class="col-xs-12">
-            <ul>
-              <li class="l1"><a href="">HOME</a></li>
-              <li class="l2"><a href="">NEWS UPDATE</a></li>
-              <li class="l3"><a href="">ACHIEVEMENT</a></li>
-              <li class="l4"><a href="">SCHEDULE</a></li>
-              <li class="l5"><a href="">GAMES</a></li>
-              <li class="l6"><a href="">B-MAGAZINE</a></li>
-              <li class="l7"><a href="">RECRUITEMENT</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% include left-menu.html %}
+    
     <nav class="navbar navbar-default navbar-fixed-top push-left-240" style="padding-top:22px;padding-bottom:22px">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -100,12 +75,11 @@
       </div>
     </nav>
 
-      {{content}}
+    {{content}}
       
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div> <!-- /container -->
+    <footer>
+      <p>&copy; 2016 Company, Inc.</p>
+    </footer>
 
     {% include analytics.html %}
   </body>
