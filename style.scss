@@ -31,7 +31,7 @@
   position:fixed;
   top:0;
   left:0;
-  background:#fff;
+  background:#ddd;
   box-shadow: 0px 0px 5px #ccc;
   z-index:1031;
   
@@ -41,6 +41,7 @@
   
   #company--logo{
     padding:1rem 0;
+    background:#fff;
   }
   
   .user-box{
@@ -75,10 +76,11 @@
       li{
         a{
           display: block;
-          padding: 1rem;
+          padding: 1rem 4rem;
           border-bottom: 1px solid #ccc;
           font-weight: bold;
           color: #999;
+          background:#fff;
         }
       }
     }
