@@ -6,7 +6,7 @@
 //
 
 //@import "reset";
-//@import "variables";
+@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -110,6 +110,12 @@ footer{
     text-align: center;
     background: #fff;
     border: 1px solid #ccc;
+  
+    @include mobile{
+      border:none;
+      padding:none;
+    }  
+  
 }
 
 #output{
