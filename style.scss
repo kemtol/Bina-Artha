@@ -50,6 +50,12 @@
     padding-bottom: 2rem;
     color:#fff;
 
+    .fa-cog{
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      font-size: 2rem;
+    }
     .circle{
       width:70%;
       margin-bottom:1rem;
@@ -76,11 +82,12 @@
       li{
         a{
           display: block;
-          padding: 1rem 4rem;
+          padding: 1.5rem 4rem;
           border-bottom: 1px solid #ccc;
           font-weight: bold;
           color: #999;
           background:#fff;
+          text-decoration:none;
         }
       }
     }
