@@ -117,11 +117,34 @@
   margin-bottom:0;
 }
 
+#news--update{
+  .row{
+    margin:0;
+  }
+  .col-md-4{
+    margin-bottom:4rem;
+  }
+  a.nu0{
+    border:1px solid #ccc;
+    border-bottom:none;
+    display:block;
+    img{
+      width:100%
+    }
+  }
+  .nu1{
+    padding:2rem;
+    border:1px solid #ccc;
+    border-top:none;
+  }
+}
+
 footer{
   background:#08437E;
   color:#fff;
   
   .row{
+    margin:0;
     div{
       padding:4rem;
     }
