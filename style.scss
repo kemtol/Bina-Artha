@@ -120,22 +120,33 @@
 #news--update{
   .row{
     margin:0;
-  }
-  .col-md-4{
-    margin-bottom:4rem;
-  }
-  a.nu0{
-    border:1px solid #ccc;
-    border-bottom:none;
-    display:block;
-    img{
-      width:100%
+    h2{
+      color: #999;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
     }
-  }
-  .nu1{
-    padding:2rem;
-    border:1px solid #ccc;
-    border-top:none;
+    .col-md-4{
+      margin-bottom:4rem;
+      a.nu0{
+        border:1px solid #ccc;
+        border-bottom:none;
+        display:block;
+        img{
+          width:100%
+        }
+      }
+      .nu1{
+        padding:2rem;
+        border:1px solid #ccc;
+        border-top:none;
+        h3{
+          a{
+            color:#111;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -147,6 +158,14 @@ footer{
     margin:0;
     div{
       padding:4rem;
+      .fab{
+        color:#fff;
+        font-size:3rem;
+        margin-right:1rem;
+        margin-left:1rem;
+        position:relative;
+        top:0.5rem;
+      }
     }
   }
 }
