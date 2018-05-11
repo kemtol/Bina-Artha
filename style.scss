@@ -130,6 +130,16 @@
     }
     .col-md-4{
       margin-bottom:4rem;
+      .tgl{
+        width:100px;
+        position:absolute;
+        top:0;
+        left:1rem;
+        background:08437E;
+        color:#fff;
+        font-size:2rem;
+        font-weight:bold;
+      }
       a.nu0{
         border:1px solid #ccc;
         border-bottom:none;
