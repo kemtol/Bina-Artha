@@ -1,7 +1,6 @@
 //@import "reset";
 @import "variables";
 
-// Component
 .circle{
   overflow:hidden;
   border-radius:50%;
@@ -107,7 +106,6 @@
   margin-bottom:0;
 }
 
-// Halaman POSTS dan POST
 #page--news--update,
 #page--achievement,
 #page--detail--post
@@ -173,7 +171,6 @@
   margin-bottom:4rem;
 }
 
-// Footer
 footer{
   background:#08437E;
   color:#fff;
@@ -194,13 +191,11 @@ footer{
   }
 }
 
-// Break point rule
 @media screen and (max-width: 1023px) {
   #left--menu{display:none;}
   .push-left-240{padding-left:15px;}
 }
 
-// Login page
 @import "css-login-page";
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
