@@ -1,19 +1,7 @@
----
----
-
-//
-// IMPORTS
-//
-
 //@import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* CUSTOM */
-/**************/
-
-/* COMPONENT */
+// Component
 .circle{
   overflow:hidden;
   border-radius:50%;
@@ -23,8 +11,6 @@
   }
 }
 
-
-/* HALAMAN HOME */
 #left--menu{
   width:240px;
   height:100vh;
@@ -121,6 +107,7 @@
   margin-bottom:0;
 }
 
+// Halaman POSTS dan POST
 #page--news--update,
 #page--achievement,
 #page--detail--post
@@ -186,6 +173,7 @@
   margin-bottom:4rem;
 }
 
+// Footer
 footer{
   background:#08437E;
   color:#fff;
@@ -206,11 +194,13 @@ footer{
   }
 }
 
+// Break point rule
 @media screen and (max-width: 1023px) {
   #left--menu{display:none;}
   .push-left-240{padding-left:15px;}
 }
 
+// Login page
 @import "css-login-page";
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
