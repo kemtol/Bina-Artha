@@ -167,6 +167,19 @@
   }
 }
 
+#page--detail--post{
+  .row{
+    .post-content{
+      padding:0 4rem;
+      
+      .h2.blog-post-title{
+        font-size:3rem;
+        color:#111;
+      }
+    }
+  }
+}
+
 .pagination{
   margin-bottom:4rem;
 }
