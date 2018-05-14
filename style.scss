@@ -125,6 +125,7 @@
 #page--achievement,
 #page--detail--post
 {
+  border-bottom:1px dashed #111;
   .row{
     margin:0;
     h2{
@@ -168,6 +169,7 @@
 }
 
 #page--detail--post{
+  padding-bottom:6rem;
   .row{
     .post-content{
       padding:0 4rem;
