@@ -188,6 +188,25 @@
   }
 }
 
+#page--magz{
+  .col-xs-12{
+    margin-bottom:2rem;
+    .wrap{
+      border:1px solid #ccc;
+      padding:2rem;
+      a{
+        color:#111;
+      }
+      .nu0{
+        float:left;
+        img{
+          width:300px;
+        }
+      }
+    }
+  }
+}
+
 .pagination{
   margin-bottom:4rem;
 }
