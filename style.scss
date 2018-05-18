@@ -114,7 +114,8 @@
 #page--news--update,
 #page--achievement,
 #page--detail--post,
-#page--calender
+#page--calender,
+#page--games
 {
   border-bottom:1px dashed #111;
   .row{
@@ -131,11 +132,14 @@
         width:100px;
         position:absolute;
         top:0;
-        left:1rem;
+        left:3rem;
         background:08437E;
         color:#fff;
         font-size:2rem;
         font-weight:bold;
+        background: #08437E;
+        text-align: center;
+        padding: 1rem;
       }
       a.nu0{
         border:1px solid #ccc;
