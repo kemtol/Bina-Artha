@@ -241,6 +241,7 @@ footer{
 @media screen and (max-width: 1023px) {
   #left--menu{display:none;}
   .push-left-240{padding-left:15px;}
+  .jumbotron{padding-left:0px;}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
