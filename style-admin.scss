@@ -1,9 +1,20 @@
 ---
 ---
 
+/* override icon */
+i.fas.fa-folder-open{
+  color: yellow;
+  background: darkseagreen;
+  padding: 1rem;
+  font-size: 18px;
+}
+
+/* override base */
 body{
   background:#f6f6f6;
 }
+
+/* override all section */
 
 #section--document{
   margin-top:10rem;
