@@ -43,13 +43,6 @@ body{
       background-color: #b6e4ed;
     }
 
-.modal.in .modal-dialog {
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
-
 /* override all section */
 
 #section--document{
@@ -86,10 +79,3 @@ footer{
 
 /* override breakpoint */
 
-@media (min-width: 768px){
-  .modal-dialog {
-      width: 600px;
-      top: 50%;
-      left: 50%;
-  }
-}
