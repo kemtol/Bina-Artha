@@ -7,8 +7,22 @@ body{
 
 #section--document{
   margin-top:10rem;
-  border: 1px solid #e7e7e7;
-  border-radius: 4px;
+}
+
+.doc-path{
+    background-color: dodgerblue;
+}
+
+.doc-path .navbar-brand{
+    color:#fff;
+}
+
+.doc-content{
+  background-color:#fff;
+}
+
+.doc-content .table{
+    border: 1px solid #ddd;
 }
 
 footer{
