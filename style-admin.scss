@@ -9,8 +9,8 @@ i.fas.fa-folder-open{
   font-size: 18px;
 }
 
-.fas.fa-edit,
-.fas.fa-trash-alt{
+.doc-content .fas.fa-edit,
+.doc-content .fas.fa-trash-alt{
     color: #fff;
     background: orange;
     padding: 0.5rem;
@@ -18,7 +18,7 @@ i.fas.fa-folder-open{
     margin: 0.5rem;
     display: inline-block;
 }
-.fas.fa-trash-alt{
+.doc-content .fas.fa-trash-alt{
     background:red;
 }
 
