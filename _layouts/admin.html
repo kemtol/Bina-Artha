@@ -59,7 +59,11 @@
       </nav>
 
       <div class="row" style="margin-bottom: 1rem;">
-        <div class="col-xs-12"><button type="button" class="btn btn-success pull-right"  data-toggle="modal" data-target="#myModal"><i class="fas fa-plus-circle"></i> New Master Course</button></div>
+        <div class="col-xs-12">
+          <button type="button" class="btn btn-success pull-right"  data-toggle="modal" data-target="#add--master">
+            <i class="fas fa-plus-circle"></i> New Master Course
+          </button>
+        </div>
       </div>
       
       <div class="doc-content">
@@ -87,20 +91,23 @@
       </footer>
 
       <!-- Modal -->
-      <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal fade" id="add--master" role="dialog">
         <div class="modal-dialog">
 
           <!-- Modal content-->
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Modal Header</h4>
+              <h4 class="modal-title">Master Header</h4>
             </div>
             <div class="modal-body">
-              <p>Some text in the modal.</p>
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-tag"></i></span>
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button> <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
 
