@@ -9,6 +9,19 @@ i.fas.fa-folder-open{
   font-size: 18px;
 }
 
+fas fa-edit,
+fas fa-trash-alt{
+    color: #fff;
+    background: orange;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+    display: inline-block;
+}
+fas fa-trash-alt{
+    background:red;
+}
+
 /* override base */
 body{
   background:#f6f6f6;
