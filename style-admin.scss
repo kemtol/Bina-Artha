@@ -19,6 +19,12 @@ body{
     background-color: #D9EBEF;
     border: none;
 }
+  .navbar-inverse .navbar-brand {
+    color: #30899b;
+  }
+  .navbar-inverse .navbar-brand:hover {
+    color: dodgerblue;
+  }
   .navbar-inverse .navbar-nav>li>a,
   .navbar-inverse .navbar-nav>.active>a{
      color:#30899b;
@@ -28,11 +34,14 @@ body{
       color: dodgerblue;
       background-color: transparent;
   }
-  .navbar-inverse .navbar-nav>.active>a:focus,
-  .navbar-inverse .navbar-nav>.active>a:hover {
+    .navbar-inverse .navbar-nav>.active>a{
+      background-color: #b6e4ed;
+    }
+    .navbar-inverse .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a:hover {
       color: dodgerblue;
       background-color: #b6e4ed;
-  }
+    }
 
 /* override all section */
 
