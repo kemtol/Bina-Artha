@@ -86,9 +86,10 @@ footer{
 
 /* override breakpoint */
 
-@media (min-width: 768px)
-.modal-dialog {
-    width: 600px;
-    top: 50%;
-    left: 50%;
+@media (min-width: 768px){
+  .modal-dialog {
+      width: 600px;
+      top: 50%;
+      left: 50%;
+  }
 }
