@@ -2,7 +2,8 @@
 ---
 
 /* override icon */
-.fas.fa-folder-open{
+.fas.fa-folder-open,
+.fas.fa-file{
   color: yellow;
   background: darkseagreen;
   padding: 1rem;
@@ -82,6 +83,13 @@ body{
           margin-top:0;
           margin-bottom:0;
       }
+
+
+.modal-body{
+  .input-group{
+    margin-bottom:1rem;
+  }
+}
 
 footer{
     padding-top: 4rem;
