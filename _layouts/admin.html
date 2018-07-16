@@ -60,13 +60,13 @@
 
       <div class="row" style="margin-bottom: 1rem;">
         <div class="col-xs-12">
-          <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#add--master">
+          <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#upload--pdf">
             <i class="fas fa-file-pdf"></i> Upload PDF
           </button>
-          <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#add--master">
+          <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#do--presentation">
             <i class="fas fa-desktop"></i> Presentation
           </button>
-          <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#add--master">
+          <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#add--online--test">
             <i class="fas fa-plus"></i> Online Test
           </button>
           <button type="button" class="btn btn-success pull-right"  data-toggle="modal" data-target="#add--master">
@@ -121,8 +121,8 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2018 Bina Artha. <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </footer>
-
-      <!-- Modal Add Course-->
+      
+      <!-- Modal Add Online Test-->
       <div class="modal fade" id="add--master" role="dialog">
         <div class="modal-dialog">
 
@@ -136,6 +136,39 @@
               <div class="input-group input-group-lg">
                 <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-tag"></i></span>
                 <input type="text" class="form-control" placeholder="Title.." aria-describedby="sizing-addon1">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><i class="far fa-check"></i> Submit</button> <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- Modal Add Course-->
+      <div class="modal fade" id="add--online--test" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Create Online Test</h4>
+            </div>
+            <div class="modal-body">
+              <p>Upload excel file (.xls, .xlsx) to create quiz. The system will generate Question and Answer based on excel data.</p>
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-tag"></i></span>
+                <input type="text" class="form-control" placeholder="Title.." aria-describedby="sizing-addon1">
+              </div>
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"><i class="far fa-clock"></i></span>
+                <input type="text" class="form-control" placeholder="Maximum Time.." aria-describedby="sizing-addon1">
+              </div>
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-upload"></i></span>
+                <input type="file" class="form-control" placeholder="Browse file.." aria-describedby="sizing-addon1">
               </div>
             </div>
             <div class="modal-footer">
@@ -170,7 +203,7 @@
         </div>
       </div>
       
-      <!-- Modal Edit Course-->
+      <!-- Modal Edit delete-->
       <div class="modal fade" id="delete--course" role="dialog">
         <div class="modal-dialog">
 
