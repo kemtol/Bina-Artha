@@ -44,6 +44,11 @@ body{
   background:#f6f6f6;
 }
 
+.row.no-margin{
+  margin-left:0px;
+  margin-right:0px;
+}
+
 /* overrider bs component */
 .navbar-inverse {
     background-color: #D9EBEF;
