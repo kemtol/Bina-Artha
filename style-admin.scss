@@ -39,6 +39,19 @@
     background:red;
 }
 
+.doc-content .alfabet{
+    padding: 0rem 1rem;
+    display: inline-block;
+    background: gray;
+    font-size: 28px;
+    font-weight: 300;
+    color:#fff;
+}
+.doc-content .alfabet.cpurple{background:purple}
+.doc-content .alfabet.cred{background:red}
+.doc-content .alfabet.cgreen{background:green}
+.doc-content .alfabet.cblue{background:blue}
+
 /* override base */
 body{
   background:#f6f6f6;
