@@ -1,6 +1,6 @@
 ---
 layout: oos.html
-permalink: /oos.html
+permalink: /welcome.html
 ---
 
-tes
+Hi employee
