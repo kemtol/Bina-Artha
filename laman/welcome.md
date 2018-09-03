@@ -1,5 +1,5 @@
 ---
-layout: oss.html
+layout: oss
 permalink: /welcome.html
 ---
 
