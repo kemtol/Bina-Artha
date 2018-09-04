@@ -26,6 +26,9 @@
   </head>
 
   <style>
+    body{
+      background-color: #fcfcfc;
+    }
     .row{
       margin-left: 0;
       margin-right: 0;    
@@ -38,13 +41,19 @@
       background: #fff;
       padding:2.5rem;
     }
-    .services a h4{
+    .services a h4,
+    .services a h4:hover{
       color:#111;
       font-size:18px;
     }
-    .services a p{
+    .services a p,
+    .services a p:hover{
       color:#666;
     }
+      .services a:hover h4,
+      .services a:hover p{
+        text-decoration:none;
+      }
   </style>
   
   <body>
@@ -75,6 +84,7 @@
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#upload--pdf">
             Check mail
           </button>
+          <img src="https://i.pinimg.com/236x/71/6a/54/716a54a38983249d372f7ff6229c6262--art-postal-postcard-art.jpg" style="position: absolute;height: 60%;right: 2.5rem;top: 50%;transform: translateY(-50%);">
         </div>
       </div>   
     </div>
