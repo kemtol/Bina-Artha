@@ -33,6 +33,34 @@
       margin-left: 0;
       margin-right: 0;    
     }
+    
+    .circle{
+      width: 64px;
+      position: relative;
+      top: 3vh;
+    }
+    
+    #greeting{
+      background-image: url(https://raw.githubusercontent.com/kemtol/Bina-Artha/master/images/bg/bg1.jpg);
+      background-size: cover;
+      height: 33vh;
+      background-position: center center;
+    }
+    
+    #notif .notification-mail{
+      padding: 2.5rem 5rem;
+      border-radius: 10px;
+      box-shadow: 0px 5px 5px #ccc;
+      margin-bottom: 5rem;
+      position: relative;
+      top: -5rem;
+      background: #fff;
+    }
+    
+    #notif .notification-mail img{
+      position: absolute;height: 60%;right: 2.5rem;top: 50%;transform: translateY(-50%);
+    }
+    
     .services a{
       display:block;
       border-radius: 10px; 
@@ -59,15 +87,17 @@
   <body>
     <nav class="navbar navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header pull-right">
           <a class="navbar-brand" href="#">
-            <span class="circle" style="width: 64px;position: relative;top: 3vh;"><img src="https://raw.githubusercontent.com/kemtol/Bina-Artha/master/images/kemal-profile-pic.png" span=""></span>
+            <span class="circle">
+              <img src="https://raw.githubusercontent.com/kemtol/Bina-Artha/master/images/kemal-profile-pic.png" span="">
+            </span>
           </a>
         </div>
       </div>
     </nav>
     
-    <div class="container-fluid" style="    background-image: url(https://raw.githubusercontent.com/kemtol/Bina-Artha/master/images/bg/bg1.jpg);    background-size: cover;    height: 33vh;    background-position: center center;">
+    <div class="container-fluid" id="greeting">
       <div class="row">
         <div class="col-xs-12 text-center" style="    padding-top: 12vh;">
           <h4 style="color: #fff;">Good Afternoon</h4>
@@ -78,22 +108,24 @@
     </div>
     
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12" style="padding: 2.5rem 5rem;border-radius: 10px;    box-shadow: 0px 5px 5px #ccc;    margin-bottom: 5rem;    position: relative;    top: -5rem;    background: #fff;">
+      
+      <div class="row" id="notif">
+        <div class="col-xs-12 notification-mail">
           <h4 style="margin-bottom:3rem;">We got a tip for you, check your email first</h4>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#upload--pdf">
             Check mail
           </button>
-          <img src="https://i.pinimg.com/236x/71/6a/54/716a54a38983249d372f7ff6229c6262--art-postal-postcard-art.jpg" style="position: absolute;height: 60%;right: 2.5rem;top: 50%;transform: translateY(-50%);">
+          <img src="https://i.pinimg.com/236x/71/6a/54/716a54a38983249d372f7ff6229c6262--art-postal-postcard-art.jpg" />
         </div>
-      </div>   
-    </div>
-    
-    <div class="container">
-      <div class="row">
-        <h3>Start Explore</h3>
-        <p>Or start add your services preference..</p>
       </div>
+    
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Start Explore</h3>
+          <p>Or start add your services preference..</p>
+        </div>
+      </div>
+      
       <div class="row">
         
         <div class="services col-xs-4 text-center">
