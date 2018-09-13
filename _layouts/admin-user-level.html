@@ -26,13 +26,15 @@
   <style>
     #user--level{
       background:url("{{ site.baseurl}}/images/rank/level-1.jpg") no-repeat;
-      background-cover:cover;
-      width:100vw;
-      height:100vh;
+      background-size:cover;
+      width:960px;
+      height:700px;
     }
   </style>
 
   <body> 
+    
+    {% include admin-nav.html %}
     
     <div id="user--level">
       <div class="employee">
