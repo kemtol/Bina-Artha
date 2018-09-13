@@ -102,6 +102,19 @@
         </div>
       </div>
     </div>
-      
+    
+    <ul class="list-inline">
+      <li><a href="" class="btn-default btn chg" value-"{{ site.baseurl}}/images/rank/level-1.jpg">1</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-2.jpg">2</a></li>
+    </ul>
+    
+    <script>
+      $( document ).ready(function() {
+        $(".chg").click(function() {
+          console.log($(this).attr('value'));
+        });
+      });
+    </script>
+    </script>
   </body>
 </html>
