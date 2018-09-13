@@ -106,15 +106,24 @@
     <ul class="list-inline">
       <li><a href="" class="btn-default btn chg" value-"{{ site.baseurl}}/images/rank/level-1.jpg">1</a></li>
       <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-2.jpg">2</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-3.jpg">3</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-4.jpg">4</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-5.jpg">5</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-6.jpg">6</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-7.jpg">7</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-8.jpg">8</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-9.jpg">9</a></li>
+      <li><a href="" class="btn-default btn chg" value="{{ site.baseurl}}/images/rank/level-10.jpg">10</a></li>
     </ul>
     
     <script>
       $( document ).ready(function() {
         $(".chg").click(function() {
-          console.log($(this).attr('value'));
+          $("#user--level").css("background-image":'url(' + $(this).attr('value') + ')');
+          //console.log($(this).attr('value'));
+          return false;
         });
       });
-    </script>
     </script>
   </body>
 </html>
