@@ -1,5 +1,5 @@
 ---
-layout: admin
+layout: admin-user-level
 permalink: "/dashboard/employee-level.html"
 ---
 
