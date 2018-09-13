@@ -29,6 +29,17 @@
       background-size:cover;
       width:960px;
       height:700px;
+      margin: auto;
+      margin-top: 12.5rem;
+      margin-bottom: 12.5rem;
+      position:relative;
+    }
+    #user--level .row{
+      margin-left:0;
+      margin-right:0;
+      position:absolute;
+      top:1rem;
+      left:1rem;
     }
   </style>
 
@@ -37,11 +48,13 @@
     {% include admin-nav.html %}
     
     <div id="user--level">
-      <div class="employee">
+      <div class="employee row">
         <div class="pull-left">
-          <span class="circle">
-            <img src="https://raw.githubusercontent.com/kemtol/Bina-Artha/master/images/kemal-profile-pic.png" span="">
-          </span>
+          <a href="#">
+            <span class="circle">
+              <img src="https://raw.githubusercontent.com/kemtol/Bina-Artha/master/images/kemal-profile-pic.png" span="">
+            </span>
+          </a>
         </div>
         <div class="pull-right">
           <span class="fa fa-star checked"></span>
